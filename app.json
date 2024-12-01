@@ -9,7 +9,8 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.arielvola.previagame"
     },
     "android": {
       "adaptiveIcon": {
@@ -36,6 +37,32 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "bee19bd6-7c39-49d5-a2ee-a844df216cf4",
+        "cli": {
+          "version": ">= 2.0.0"
+        },
+        "build": {
+          "development": {
+            "distribution": "internal",
+            "ios": {
+              "simulator": true
+            }
+          },
+          "production": {
+            "distribution": "app-store",
+            "ios": {
+              "simulator": false
+            }
+          }
+        }
+      }
+    },
+    "owner": "arielvola"
   }
 }

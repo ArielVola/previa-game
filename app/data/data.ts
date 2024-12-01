@@ -1,0 +1,35 @@
+import { Challenge } from "../interfaces/Challenges.interface";
+
+export const challengesData: Array<Challenge> = [
+    { id: 1, challenge: "Seguí a tu ex en Instagram y dale like a su última foto." },
+    { id: 2, challenge: "Tomate un shot de lo que el grupo elija." },
+    { id: 3, challenge: "Hablale a tu crush y decile que soñaste con ella/él." },
+    { id: 4, challenge: "Hacé un brindis y decí algo bien cursi." },
+    { id: 5, challenge: "Cantá un tema completo como si fueras estrella de karaoke." },
+    { id: 6, challenge: "Mandale un sticker random a la tercera persona en tu lista de chats." },
+    { id: 7, challenge: "Pedí un brindis por vos mismo y tomate dos tragos seguidos." },
+    { id: 8, challenge: "Sacate una selfie grupal y subila con un filtro bien random." },
+    { id: 9, challenge: "Inventá un baile para el tema que está sonando." },
+    { id: 10, challenge: "Cambiá tu estado de WhatsApp a algo polémico que decida el grupo." },
+    { id: 11, challenge: "Sacate una prenda de ropa que no sea esencial." },
+    { id: 12, challenge: "Hacé un cumplido al azar a alguien en la mesa." },
+    { id: 13, challenge: "Mostrá tu última búsqueda en Google." },
+    { id: 14, challenge: "Elegí a alguien y hacé una mini declaración romántica (actuada)." },
+    { id: 15, challenge: "Escribí tu peor anécdota de fiesta en el grupo y léela en voz alta." },
+    { id: 16, challenge: "Cambiá de lugar con la persona a tu izquierda por 10 minutos." },
+    { id: 17, challenge: "Tomate un sorbo cada vez que alguien diga 'boliche'." },
+    { id: 18, challenge: "Pedí un trago y decí que es para el amor de tu vida (mirá al grupo)." },
+    { id: 19, challenge: "Leé el primer mensaje que te apareció en Instagram en voz alta." },
+    { id: 20, challenge: "Llamá a tu amigo/a que nunca viene a las previas y decile que lo/a extrañás." },
+    { id: 21, challenge: "Dale un beso en la mejilla a la persona que más te guste del grupo." },
+    { id: 22, challenge: "Preguntale a alguien '¿Qué preferís?' y proponé dos opciones bien subidas de tono." },
+    { id: 23, challenge: "Contá una fantasía tuya que nunca te animaste a decir." },
+    { id: 24, challenge: "Enviá un emoji de fuego 🔥 a la última persona con la que chateaste." },
+    { id: 25, challenge: "Hacé contacto visual con alguien durante 30 segundos sin reírte (si fallás, tomás un shot)." },
+    { id: 26, challenge: "Mandale un 'te extraño' a alguien con quien tuviste onda." },
+    { id: 27, challenge: "Decí al menos tres cosas que te parecen sexys de alguien en el grupo." },
+    { id: 28, challenge: "Jugá a piedra, papel o tijera con alguien; si perdés, hacé lo que esa persona te pida." },
+    { id: 29, challenge: "Sacate una foto sexy y mandala al grupo." },
+    { id: 30, challenge: "Dejá que alguien elija tu próxima historia en Instagram y subila sin cuestionar." }
+  ];
+  
